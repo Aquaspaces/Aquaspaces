@@ -7,10 +7,22 @@
         <mxCell id="dyp7_rvsVn9EUOheR4vj-1" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="360" y="10" width="90" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.9;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-2" target="dyp7_rvsVn9EUOheR4vj-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="445" y="170" />
+              <mxPoint x="631" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.router;" vertex="1" parent="1">
           <mxGeometry x="355" y="90" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-3" target="dyp7_rvsVn9EUOheR4vj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-3" target="dyp7_rvsVn9EUOheR4vj-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" vertex="1" parent="1">
@@ -40,26 +52,87 @@
         <mxCell id="dyp7_rvsVn9EUOheR4vj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-12" target="dyp7_rvsVn9EUOheR4vj-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.95;exitY=0.05;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;dashed=1;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="332" />
+              <mxPoint x="430" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-12" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" vertex="1" parent="1">
           <mxGeometry x="355" y="330" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-3" target="dyp7_rvsVn9EUOheR4vj-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;strokeWidth=3;endArrow=none;startFill=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-14" target="dyp7_rvsVn9EUOheR4vj-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;strokeWidth=3;endArrow=none;startFill=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-14" target="dyp7_rvsVn9EUOheR4vj-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;strokeWidth=3;endArrow=none;startFill=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-14" target="dyp7_rvsVn9EUOheR4vj-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-14" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.patch_panel;" vertex="1" parent="1">
-          <mxGeometry x="355" y="380" width="100" height="35" as="geometry" />
+          <mxGeometry x="355" y="430" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-16" value="Cable Drops" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="450" y="385" width="90" height="30" as="geometry" />
+          <mxGeometry x="455" y="432.5" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-17" value="Unifi Flex 2.5G" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="455" y="330" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dyp7_rvsVn9EUOheR4vj-18" value="Alden Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="110" y="360" width="90" height="30" as="geometry" />
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-18" value="&lt;div&gt;My Server&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="360" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="dyp7_rvsVn9EUOheR4vj-19" value="Family Server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="360" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;startFill=0;strokeColor=#FF0000;fillColor=#f8cecc;strokeWidth=3;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="400" />
+              <mxPoint x="420" y="400" />
+              <mxPoint x="420" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-20" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.switch;" vertex="1" parent="1">
+          <mxGeometry x="555" y="330" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-22" value="POE Switch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="650" y="330" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-26" value="SFP+ DAC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="215" y="200" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-29" value="2.5G Failover" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="142" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-32" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/security/Surveillance_Camera_Ceiling.svg;" vertex="1" parent="1">
+          <mxGeometry x="480" y="670" width="37.2" height="35.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-33" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/security/Surveillance_Camera_Ceiling.svg;" vertex="1" parent="1">
+          <mxGeometry x="550" y="670" width="37.2" height="35.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-34" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/security/Surveillance_Camera_Ceiling.svg;" vertex="1" parent="1">
+          <mxGeometry x="690" y="670" width="37.2" height="35.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-35" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/security/Surveillance_Camera_Ceiling.svg;" vertex="1" parent="1">
+          <mxGeometry x="620" y="670" width="37.2" height="35.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-36" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/security/Surveillance_Camera_Ceiling.svg;" vertex="1" parent="1">
+          <mxGeometry x="762.8" y="670" width="37.2" height="35.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;strokeWidth=3;endArrow=none;startFill=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-14" target="dyp7_rvsVn9EUOheR4vj-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dyp7_rvsVn9EUOheR4vj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.484;entryY=0.113;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;strokeWidth=3;endArrow=none;startFill=0;" edge="1" parent="1" source="dyp7_rvsVn9EUOheR4vj-14" target="dyp7_rvsVn9EUOheR4vj-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
